@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://github.com/ZafrinSyeda/mystery-and-intrigue",
+  "homepage": "https://zafrinsyeda.github.io/mystery-and-intrigue/",
   "name": "pack-opening-demo",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^11.11.9",
@@ -17,6 +17,7 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@types/node": "^22.10.1",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.1",
